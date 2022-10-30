@@ -4,8 +4,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 
 const navigator = createStackNavigator(
   {
-    
-    Home: HomeScreen,
+      Home: HomeScreen,
   },
   {
     initialRouteName: "Home",
@@ -14,5 +13,5 @@ const navigator = createStackNavigator(
     },
   }
 );
-
+//test new
 export default createAppContainer(navigator);
