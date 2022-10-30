@@ -4,6 +4,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 
 const navigator = createStackNavigator(
   {
+    
     Home: HomeScreen,
   },
   {
